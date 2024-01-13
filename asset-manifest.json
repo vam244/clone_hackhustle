@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/drone-app/static/css/main.18d57517.css",
+    "main.js": "/drone-app/static/js/main.85d53a9d.js",
+    "static/js/787.7bb1a810.chunk.js": "/drone-app/static/js/787.7bb1a810.chunk.js",
+    "index.html": "/drone-app/index.html",
+    "main.18d57517.css.map": "/drone-app/static/css/main.18d57517.css.map",
+    "main.85d53a9d.js.map": "/drone-app/static/js/main.85d53a9d.js.map",
+    "787.7bb1a810.chunk.js.map": "/drone-app/static/js/787.7bb1a810.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18d57517.css",
+    "static/js/main.85d53a9d.js"
+  ]
+}

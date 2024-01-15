@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/drone-app/static/css/main.fd2738b5.css",
-    "main.js": "/drone-app/static/js/main.2f2365f3.js",
+    "main.css": "/drone-app/static/css/main.815377bb.css",
+    "main.js": "/drone-app/static/js/main.fa7d6f96.js",
     "static/js/787.7bb1a810.chunk.js": "/drone-app/static/js/787.7bb1a810.chunk.js",
     "static/media/drone_cursor.png": "/drone-app/static/media/drone_cursor.963401eaf21e4ee8fd50.png",
     "static/media/DJI FPV.jfif.jpg": "/drone-app/static/media/DJI FPV.jfif.32678e6ab164de8c5865.jpg",
     "index.html": "/drone-app/index.html",
-    "main.fd2738b5.css.map": "/drone-app/static/css/main.fd2738b5.css.map",
-    "main.2f2365f3.js.map": "/drone-app/static/js/main.2f2365f3.js.map",
+    "main.815377bb.css.map": "/drone-app/static/css/main.815377bb.css.map",
+    "main.fa7d6f96.js.map": "/drone-app/static/js/main.fa7d6f96.js.map",
     "787.7bb1a810.chunk.js.map": "/drone-app/static/js/787.7bb1a810.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd2738b5.css",
-    "static/js/main.2f2365f3.js"
+    "static/css/main.815377bb.css",
+    "static/js/main.fa7d6f96.js"
   ]
 }

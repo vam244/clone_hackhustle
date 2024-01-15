@@ -51,19 +51,19 @@ function Homepage() {
         AOS.init({ duration: 2000 })
     }, [])
     return (
-        <div>
+        <div className='page'>
+            <motion.img
+                className='cursor'
+                variants={variants}
+                animate={cursorVariant}
+                src={drone} alt=""
+            />
             <Navbar />
             <div className='MainPage '>
-                <motion.img
-                    className='cursor'
-                    variants={variants}
-                    animate={cursorVariant}
-                    src={drone} alt="" 
-                />
                 <div id="home">
-                    <div className="intro">
-                        <h1 className="typing-demo">Greetings fellow learner....</h1>
-                    </div>
+                    <h1 className=" neonText">Greetings fellow learner....</h1>
+                    <h2>IEEE PRESENTS</h2>
+                    <h2 className='text-shadow'>Workshop-Name</h2>
                     <div className="home">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ullam officiis ipsam? Veritatis rem nobis tempore animi, minus facilis aspernatur ipsam minima. Doloremque cum dolorem cumque enim pariatur, ipsam libero magni repudiandae, quam quidem, explicabo similique quod corporis harum sunt?</p>
                     </div>

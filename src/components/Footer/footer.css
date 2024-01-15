@@ -1,0 +1,24 @@
+#footer{
+    background-color: #1e1e1e;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.icon{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon:hover{
+    border: 2px solid rgb(73, 68, 68);
+    border-radius: 50%;
+}
+#footer a:link {
+    color: rgb(164, 85, 85);
+    background-color: transparent;
+    text-decoration: none;
+}

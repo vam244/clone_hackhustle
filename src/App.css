@@ -1,5 +1,26 @@
+*{
+  cursor: none;
+}
+.app{
+  background-color: #111111;
+}
 .MainPage{
-  background-color: black;
+  background-color: #111111;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  flex-direction: column;
+  padding: 20px;
+  background: url("DJI FPV.jfif.jpg") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#about{
+  background-color: #111111;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,8 +28,8 @@
   flex-direction: column;
   padding: 20px;
 }
-h1{
-  font-size: 45px;
+#home h1{
+  font-size: 50px;
 }
 #home{
   display: flex;
@@ -16,10 +37,86 @@ h1{
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #home img{
-  max-width: 20vw;
+  max-width: 30vw;
   height: auto;
+}
+
+#register{
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: wheat;
+}
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(40, 55, 50),
+      0 0 80px rgb(40, 55, 50),
+      0 0 90px rgb(40, 55, 50),
+      0 0 100px rgb(40, 55, 50),
+      0 0 150px rgb(40, 55, 50);
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+.intro{
+  border-radius: 2px solid red;
+  font-size: 10rem;
+}
+
+
+.typing-demo {
+  width: 100%;
+  animation: typing 4s steps(100), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.cursor{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
 }

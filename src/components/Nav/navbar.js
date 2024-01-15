@@ -31,6 +31,11 @@ function Navbar () {
             Register
           </AnchorLink>
         </li>
+        <li>
+          <AnchorLink href="#footer">
+            Contact Us
+          </AnchorLink>
+        </li>
       </ul>
     </nav>
   );

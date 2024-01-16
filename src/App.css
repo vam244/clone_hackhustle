@@ -16,19 +16,17 @@
   flex-direction: row;
   color: wheat;
   padding: 20px;
-  background-image:url("DJI FPV.jfif.jpg");
+  background:url("DJI FPV.jfif.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
+  background-attachment: fixed;
   background-position:center;
 }
 
 #home{
   text-align: left;
   font-size: 20px;
-  padding-left: 25px;
+  padding-left: 2vw;
 }
 
 .home{
@@ -72,9 +70,9 @@
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
 
       text-shadow:
-      0 0 4px #5e3c3c,
-      0 0 11px #5e3c3c,
-      0 0 19px #5e3c3c,
+      0 0 4px #2962ff,
+      0 0 11px #2962ff,
+      0 0 19px #2962ff,
       0 0 40px rgb(40, 55, 50),
       0 0 80px rgb(40, 55, 50),
       0 0 90px rgb(40, 55, 50),

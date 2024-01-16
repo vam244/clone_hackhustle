@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Navbar from './Nav/navbar.js'
 import Footer from './Footer/footer.js'
 import AOS from 'aos'
-import drone from './drone_cursor.png'
+import drone from './bg.png'
 import 'aos/dist/aos.css'
 
 function Homepage() {
@@ -32,7 +32,7 @@ function Homepage() {
 
     const variants = {
         default: {
-            x: mousePosition.x - 50,
+            x: mousePosition.x - 75,
             y: mousePosition.y - 50,
         },
         text: {
@@ -62,7 +62,7 @@ function Homepage() {
             <div className='MainPage '>
                 <div id="home">
                     <h1 className=" neonText">Greetings fellow learner....</h1>
-                    <h2>IEEE PRESENTS</h2>
+                    <h2 className="typing-demo">IEEE PRESENTS.....</h2>
                     <h2 className='text-shadow'>Workshop-Name</h2>
                     <div className="home">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ullam officiis ipsam? Veritatis rem nobis tempore animi, minus facilis aspernatur ipsam minima. Doloremque cum dolorem cumque enim pariatur, ipsam libero magni repudiandae, quam quidem, explicabo similique quod corporis harum sunt?</p>

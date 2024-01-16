@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
 * {
   cursor: none;
@@ -16,7 +16,7 @@
   flex-direction: row;
   color: wheat;
   padding: 20px;
-  background:url("DJI FPV.jfif.jpg");
+  background:url("bg.png");
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment: fixed;
@@ -63,7 +63,7 @@
 
 .neonText {
   animation: flicker 1.5s infinite alternate;
-  color: wheat;
+  color: rgb(136, 133, 130);
 }
 @keyframes flicker {
     
@@ -73,11 +73,11 @@
       0 0 4px #2962ff,
       0 0 11px #2962ff,
       0 0 19px #2962ff,
-      0 0 40px rgb(40, 55, 50),
-      0 0 80px rgb(40, 55, 50),
-      0 0 90px rgb(40, 55, 50),
-      0 0 100px rgb(40, 55, 50),
-      0 0 150px rgb(40, 55, 50);
+      0 0 40px #318ca5,
+      0 0 80px #318ca5,
+      0 0 90px #318ca5,
+      0 0 100px #318ca5,
+      0 0 150px #318ca5;
   
   }
   
@@ -87,7 +87,7 @@
 } 
 
 .cursor{
-  width: 100px;
+  width: 150px;
   height: 100px;
   position: fixed;
   top: 0;
@@ -132,3 +132,26 @@
 	}
 }
 
+
+.typing-demo {
+  width: 18ch;
+  animation: typing 4s steps(18), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

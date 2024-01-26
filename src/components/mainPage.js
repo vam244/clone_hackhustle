@@ -34,7 +34,7 @@ function MainPage() {
             </div>
             <div id='register' data-aos="zoom-in">
                 <h1>Register Now!!</h1>
-                <a href="#"><button>Register!</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register!</button></a>
             </div>
         </>
     )

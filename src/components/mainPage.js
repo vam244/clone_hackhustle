@@ -35,7 +35,7 @@ function MainPage() {
             </div>
             <div id='register' data-aos="zoom-in">
                 <h1>Register Now!!</h1>
-                <p>G-form Link</p>
+                <a href="#"><button>Register!</button></a>
             </div>
         </>
     )

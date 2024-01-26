@@ -14,7 +14,8 @@ video {
 .MainPage{
   background-color: #111111;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   min-height: 150vh;
   flex-direction: row;
   color: wheat;
@@ -31,9 +32,14 @@ video {
   height: max-content;
   top: 0;
   left: 0;
-  text-align: left;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
   font-size: 20px;
-  padding-left: 2vw;
 }
 
 .home{
@@ -56,15 +62,34 @@ video {
 }
 
 #register{
-  background-color: #111111;
+  /* background: url("TAN_0346.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:center; */
   display: flex;
   align-items: center;
   justify-content: center;
   color: wheat;
+  text-align: center;
   flex-direction: column;
   padding: 20px;
-  margin-top: 20vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#register button{
+  padding: 15px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #3C2A21;
+}
+#register button:hover{
+  opacity: 0.5;
+  color: navy;
+  cursor: pointer;
 }
 
 .neonText {
@@ -104,7 +129,6 @@ video {
 
 .text-shadow {
   font-size: 2.5em;
-	text-decoration: underline;
 	font-style: italic;
 	text-transform: uppercase;
 	color: transparent;
@@ -112,7 +136,7 @@ video {
 	-webkit-text-stroke-width: 1px;
 	text-shadow: 2px 2px 10px #2962ff;
 	transition: all 0.5s ease-in-out;
-	text-align: left;
+	text-align: center;
 	letter-spacing: 0.2em;
 	animation: flicker-shadow 0.5s ease-in-out infinite alternate;
 

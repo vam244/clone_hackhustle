@@ -8,15 +8,14 @@ function Footer() {
             <p>This Website was created by IEEE SB NITD{`(WEBD Team 22-26)`}</p>
         </div>
         <div className="whatsapp">
-            <p>Join our official freshmen group <a href='#'>here</a></p>
+            <p>Join our official freshmen group <a href='https://chat.whatsapp.com/I1gglKDdTxyFQBUruuXOZ7'>here</a></p>
             <hr />
         </div>
         <div className="social">
         <p>Get in touch with us</p>
-        <SocialIcon className='icon' url="https://twitter.com" bgColor='black'/>
-        <SocialIcon className='icon' url="https://instagram.com" bgColor='black'/>
+        <SocialIcon className='icon' url="https://www.instagram.com/ieeesb_nitdgp?igsh=N3V2ZmkwOGd3Nmhm" bgColor='black'/>
         <SocialIcon className='icon' url="https://facebook.com" bgColor='black'/>
-        <SocialIcon className='icon' url="https://linkedin.com" bgColor='black'/>
+        <SocialIcon className='icon' url="https://www.linkedin.com/company/ieeesbnitdgp/" bgColor='black'/>
         </div>
     </div>
   )

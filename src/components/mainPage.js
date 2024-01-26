@@ -15,22 +15,22 @@ function MainPage() {
                 </div>
             </div>
             <div id="about">
-                <h1>Why you should enroll?</h1>
+                <h1>FAQs</h1>
                 <div className="points" data-aos='fade-left'>
-                    <h3>Sample</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error necessitatibus laboriosam quam quasi dicta nesciunt voluptatibus dolor reprehenderit dolore.</p>
+                    <h3>Who can join?</h3>
+                    <p>Ans:It would be a great learning experience for all of you irrespective of your branch! It will become the base of designing electrical circuits and help you in building further interesting projects.</p>
                 </div>
                 <div className="points" data-aos='fade-right'>
-                    <h3>Sample</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error necessitatibus laboriosam quam quasi dicta nesciunt voluptatibus dolor reprehenderit dolore.</p>
+                    <h3>Do we need any prerequisites?</h3>
+                    <p>Ans: The answer is "NO"! You will be taught everything from scratch and help you learn a lot and experience something amazing.</p>
                 </div>
                 <div className="points" data-aos='fade-left'>
-                    <h3>Sample</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error necessitatibus laboriosam quam quasi dicta nesciunt voluptatibus dolor reprehenderit dolore.</p>
+                    <h3>Why to join the event?</h3>
+                    <p>Ans: PCB designing is an integral part of any electronic gadget or robotics. Learning to design a circuit board and  understanding the logic behind it will open up the doors of innovation for you. And most importantly it will be the prerequisite for the upcoming fascinating "DRONE WORKSHOP" event! So register asap. See you in the event!</p>
                 </div>
                 <div className="points" data-aos='fade-right'>
-                    <h3>Sample</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error necessitatibus laboriosam quam quasi dicta nesciunt voluptatibus dolor reprehenderit dolore.</p>
+                    <h3>What  is PCB ?</h3>
+                    <p>Ans: PCB is basically the "Printed Circuit Design". With PCB you can design your own simplified and permanent electronic circuit .So come and have a lifetime experience of designing your own first PCB!</p>
                 </div>
             </div>
             <div id='register' data-aos="zoom-in">

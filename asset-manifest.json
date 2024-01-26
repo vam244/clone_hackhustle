@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/drone-app/static/css/main.21c555bb.css",
-    "main.js": "/drone-app/static/js/main.9d9a2679.js",
+    "main.css": "/drone-app/static/css/main.4076c8b9.css",
+    "main.js": "/drone-app/static/js/main.cfede1c5.js",
     "static/js/787.7bb1a810.chunk.js": "/drone-app/static/js/787.7bb1a810.chunk.js",
-    "static/media/bg1.jpg": "/drone-app/static/media/bg1.f39c565372ee14325cac.jpg",
+    "static/media/vidBg.mp4": "/drone-app/static/media/vidBg.52a415757b6faa91d4ad.mp4",
     "static/media/drone_cursor.png": "/drone-app/static/media/drone_cursor.963401eaf21e4ee8fd50.png",
     "index.html": "/drone-app/index.html",
-    "main.21c555bb.css.map": "/drone-app/static/css/main.21c555bb.css.map",
-    "main.9d9a2679.js.map": "/drone-app/static/js/main.9d9a2679.js.map",
+    "main.4076c8b9.css.map": "/drone-app/static/css/main.4076c8b9.css.map",
+    "main.cfede1c5.js.map": "/drone-app/static/js/main.cfede1c5.js.map",
     "787.7bb1a810.chunk.js.map": "/drone-app/static/js/787.7bb1a810.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21c555bb.css",
-    "static/js/main.9d9a2679.js"
+    "static/css/main.4076c8b9.css",
+    "static/js/main.cfede1c5.js"
   ]
 }

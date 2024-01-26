@@ -1,14 +1,14 @@
 import React from 'react'
 
 function MainPage() {
-  return (
-    <>
-    <div className='MainPage '>
+    return (
+        <>
+            <div className='MainPage '>
                 <div id="home">
                     <h1 className="typing-demo">IEEE PRESENTS.....</h1>
                     <h2 className='text-shadow'>-PCB-DECODED 2.0--</h2>
                     <div className="home">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ullam officiis ipsam? Veritatis rem nobis tempore animi, minus facilis aspernatur ipsam minima. Doloremque cum dolorem cumque enim pariatur, ipsam libero magni repudiandae, quam quidem, explicabo similique quod corporis harum sunt?</p>
+                        <p>Welcome to the fascinating world of circuits! Over the next two days, we'll take a journey through the art of circuits, exploring the fundamental concepts and their impact on the technologies that power our world.</p>
                     </div>
                 </div>
             </div>
@@ -35,8 +35,8 @@ function MainPage() {
                 <h1>Register Now!!</h1>
                 <p>G-form Link</p>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default MainPage

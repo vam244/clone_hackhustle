@@ -5,7 +5,6 @@ function MainPage() {
     return (
         <>
             <div className='MainPage '>
-                <video src={videoBg} autoPlay muted loop />
                 <div id="home">
                     <h1 className="typing-demo">IEEE PRESENTS.....</h1>
                     <h2 className='text-shadow'>-PCB-DECODED 2.0--</h2>

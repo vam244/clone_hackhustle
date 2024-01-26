@@ -13,10 +13,10 @@ function Footer() {
         </div>
         <div className="social">
         <p>Get in touch with us</p>
-        <SocialIcon className='icon' url="https://twitter.com" bgColor='black'/>
-        <SocialIcon className='icon' url="https://instagram.com" bgColor='black'/>
-        <SocialIcon className='icon' url="https://facebook.com" bgColor='black'/>
-        <SocialIcon className='icon' url="https://linkedin.com" bgColor='black'/>
+        <SocialIcon className='icon' url="https://twitter.com" bgColor='#150E56'/>
+        <SocialIcon className='icon' url="https://instagram.com" bgColor='#150E56'/>
+        <SocialIcon className='icon' url="https://facebook.com" bgColor='#150E56'/>
+        <SocialIcon className='icon' url="https://linkedin.com" bgColor='#150E56'/>
         </div>
     </div>
   )

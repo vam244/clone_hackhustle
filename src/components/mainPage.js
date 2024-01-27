@@ -6,7 +6,7 @@ function MainPage() {
         <>
             <div className='MainPage '>
                 <div id="home">
-                    <h1 className="typing-demo">IEEE PRESENTS.....</h1>
+                    <h1>IEEE SB NITD PRESENTS.....</h1>
                     <h2 className='text-shadow'>-PCB-DECODED 2.0--</h2>
                     <div className="home">
                         <p>Welcome to the fascinating world of circuits! Over the next two days, we'll take a journey through the art of circuits, exploring the fundamental concepts and their impact on the technologies that power our world.</p>

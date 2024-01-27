@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import logo from './logo2.png'
 import "./navbar.css";
 
 function Navbar () {
@@ -7,9 +8,7 @@ function Navbar () {
 
   return (
     <nav>
-      <div className="logo">
-        IEEE
-      </div>
+      <img src={logo} className="logo"/>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
         <span></span>

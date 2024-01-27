@@ -5,11 +5,10 @@ function Footer() {
   return (
     <div id='footer'>
         <div className="credit">
-            <p>This Website was created by IEEE SB NITD{`(WEBD Team 22-26)`}</p>
+            <p>This Website was created by IEEE SB NITD</p>
         </div>
         <div className="whatsapp">
             <p>Join our official freshmen group <a href='https://chat.whatsapp.com/I1gglKDdTxyFQBUruuXOZ7'>here</a></p>
-            <hr />
         </div>
         <div className="social">
         <p>Get in touch with us</p>

@@ -10,7 +10,7 @@ function Events() {
       <div className="container">
         <div className="text">
             <h1>RoboVerse</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aperiam consectetur error reprehenderit, culpa voluptate quae obcaecati iusto architecto soluta.</p>
+            <p>Welcome to the Roboverse, where innovation knows no limits. Step into a realm where imagination meets possibility, where we prototype, refine, and test the most intricate robotic algorithms in immersive simulations.</p>
         </div>
         <div className="image">
             <img src={robo} alt="Robo" />
@@ -23,7 +23,7 @@ function Events() {
         </div>
         <div className="text">
             <h1>Matlab Mastery</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aperiam consectetur error reprehenderit, culpa voluptate quae obcaecati iusto architecto soluta.</p>
+            <p>Unlock the gateway to innovation with MATLAB Mastery. Dive into MATLAB's powerful numerical computing and data analysis capabilities, and harness Simulink's dynamic system simulation tools.</p>
         </div>
       </div>
 

@@ -1,16 +1,19 @@
 import React from 'react'
-import videoBg from './vidBg.mp4';
+import vec1 from './vec4.jpeg'
 
 function MainPage() {
     return (
         <>
             <div className='MainPage '>
                 <div id="home">
-                    <h1>IEEE SB NITD PRESENTS.....</h1>
-                    <h2 className='text-shadow'>-PCB-DECODED 2.0--</h2>
+                    <h1>HACKHUSTLE</h1>
                     <div className="home">
                         <p>Welcome to the fascinating world of circuits! Over the next two days, we'll take a journey through the art of circuits, exploring the fundamental concepts and their impact on the technologies that power our world.</p>
                     </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register Now!</button></a>
+                </div>
+                <div className="vector">
+                    <img src={vec1} alt="VECTOR1" />
                 </div>
             </div>
             <div id="about">
@@ -34,7 +37,7 @@ function MainPage() {
             </div>
             <div id='register' data-aos="zoom-in">
                 <h1>Register Now!!</h1>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register!</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register Now!</button></a>
             </div>
         </>
     )

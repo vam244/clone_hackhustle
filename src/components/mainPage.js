@@ -1,5 +1,6 @@
 import React from 'react'
 import vec1 from './vec4.jpeg'
+import Events from './Events/Events'
 
 function MainPage() {
     return (
@@ -35,6 +36,7 @@ function MainPage() {
                     <p>Ans: PCB is basically the "Printed Circuit Design". With PCB you can design your own simplified and permanent electronic circuit .So come and have a lifetime experience of designing your own first PCB!</p>
                 </div>
             </div>
+            <Events/>
             <div id='register' data-aos="zoom-in">
                 <h1>Register Now!!</h1>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register Now!</button></a>

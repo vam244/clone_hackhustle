@@ -17,6 +17,13 @@
 
 .text{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text p{
+    width: 90%;
 }
 .image{
     border-top: 5px solid white;

@@ -11,7 +11,7 @@ function MainPage() {
                     <div className="home">
                         <p>HackHustle is the dynamic event hosted by the IEEE Student Branch, offering an exciting platform for innovation and collaboration. Dive into a world where creativity knows no bounds as participants engage in workshops, competitions, and networking opportunities.</p>
                     </div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register Now!</button></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDeuJoY1WTkFHVit1MzxY-Erzycjpq2hKnqFMtxc8mapNJiQ/viewform"><button>Register Now!</button></a>
                 </div>
                 <div className="vector">
                     <img src={vec1} alt="VECTOR1" />
@@ -35,7 +35,7 @@ function MainPage() {
             <Events/>
             <div id='register' data-aos="zoom-in">
                 <h1>Register Now!!</h1>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe73kFa-uJIaAmQu3LM2P04JczRfkcjMU0nocsWHiEO-4YXYQ/viewform?usp=sf_link"><button>Register Now!</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDeuJoY1WTkFHVit1MzxY-Erzycjpq2hKnqFMtxc8mapNJiQ/viewform"><button>Register Now!</button></a>
             </div>
         </>
     )

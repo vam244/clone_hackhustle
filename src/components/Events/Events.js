@@ -30,7 +30,7 @@ function Events() {
       <div className="container">
         <div className="text">
             <h1>Hackathon</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aperiam consectetur error reprehenderit, culpa voluptate quae obcaecati iusto architecto soluta.</p>
+            <p>Join us in our quest for solutions for some of the most challenging modern day problems of the industry.We will be allowing you to explore some of the post innovative ideas using various cutting-edge technologies and softwares</p>
         </div>
         <div className="image">
             <img src={hack} alt="Robo" />

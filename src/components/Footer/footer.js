@@ -8,7 +8,7 @@ function Footer() {
             <p>This Website was created by IEEE SB NITD</p>
         </div>
         <div className="whatsapp">
-            <p>Join our official freshmen group <a href='https://chat.whatsapp.com/I1gglKDdTxyFQBUruuXOZ7'>here</a></p>
+            <p>Join our official HackHustle group <a href='https://chat.whatsapp.com/Igp7FdY0vWvCoHjSlkmGRU'>here</a></p>
         </div>
         <div className="social">
         <p>Get in touch with us</p>
